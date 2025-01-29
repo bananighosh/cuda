@@ -17,7 +17,7 @@ __global__ void vectorAdd(int* a, int* b, int* c, int n){
 // Initialize vector of size  n in between 0-99
 void matrix_init(int* a, int n){
     for(int i = 0; i < n; i++){
-        a[i] = rand() % 100
+        a[i] = rand() % 100;
     }
 }
 
