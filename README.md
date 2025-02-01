@@ -26,3 +26,11 @@ challenge:  https://github.com/bananighosh/100-days-of-gpu
     - runtime library
     - Blas: Basic 
 -  vector add using CuBlas
+
+## Day 05:
+- matrix multiplication using `cublasSgemm` library
+- row-major ordering vs column-major ordering
+    - implemented column major ordering
+    - compared the performance with row-major ordering
+- Performance optimization by  initializing the  matrix directly on GPU avoiding data transfer from cpu
+    - cudaRand libraries learnt: curandCreateGenerator, cudarandSetseudoGeneratorSeed, cudaRandGenerateUniform
